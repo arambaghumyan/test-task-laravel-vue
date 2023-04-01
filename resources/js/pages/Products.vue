@@ -23,9 +23,6 @@
             <template v-if="products.length">
                 <div v-for="product in products" class="col-12 col-md-6 col-lg-3 mt-3">
                     <div class="card">
-                        <button @click="destroy(product.id)" class="btn btn-danger remove">
-                            <Trash color="white"/>
-                        </button>
                         <div class="card-body">
                             <h5 class="card-title">{{ product.name }} {{product.price}}</h5>
                             <p class="card-text"><strong>Weight: </strong>{{ product.weight }}</p>

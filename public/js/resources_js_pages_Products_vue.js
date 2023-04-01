@@ -63,9 +63,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Products",
   components: {
@@ -392,20 +389,6 @@ var render = function () {
                 { staticClass: "col-12 col-md-6 col-lg-3 mt-3" },
                 [
                   _c("div", { staticClass: "card" }, [
-                    _c(
-                      "button",
-                      {
-                        staticClass: "btn btn-danger remove",
-                        on: {
-                          click: function ($event) {
-                            return _vm.destroy(product.id)
-                          },
-                        },
-                      },
-                      [_c("Trash", { attrs: { color: "white" } })],
-                      1
-                    ),
-                    _vm._v(" "),
                     _c("div", { staticClass: "card-body" }, [
                       _c("h5", { staticClass: "card-title" }, [
                         _vm._v(
